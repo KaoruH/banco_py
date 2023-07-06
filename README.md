@@ -35,10 +35,6 @@ Siga as instruções exibidas no terminal para realizar operações bancárias.
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias ou novas funcionalidades para o sistema bancário.
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
-
 ---
 
 Espero que este projeto simples de sistema bancário em Python seja útil para entender conceitos básicos de operações bancárias. Divirta-se e aproveite o aprendizado!
