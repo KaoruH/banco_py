@@ -27,7 +27,7 @@ O sistema atende aos seguintes requisitos definidos pelo cliente:
 
 1. Clone este repositório para o seu computador.
 2. Navegue até o diretório do projeto.
-3. Execute o arquivo `sistema_bancario.py` usando o Python: python sistema_bancario.py
+3. Execute o arquivo `banco_desafio.py` usando o Python: python banco_desafio.py
 
 Siga as instruções exibidas no terminal para realizar operações bancárias.
 
@@ -36,8 +36,6 @@ Siga as instruções exibidas no terminal para realizar operações bancárias.
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias ou novas funcionalidades para o sistema bancário.
 
 ---
-
-Espero que este projeto simples de sistema bancário em Python seja útil para entender conceitos básicos de operações bancárias. Divirta-se e aproveite o aprendizado!
 
 **Desafio DIO: Criando um Sistema Bancário com Python do bootcamp Potência Tech powered by iFood | Ciências de Dados com Python.**
 
