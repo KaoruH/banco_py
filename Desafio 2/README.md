@@ -1,22 +1,23 @@
 # Sistema Bancário em Python
 
-Versão optimizada segundo requerimentos com base no sistema bancário em Python realizado no desafio 1. Este projeto foi desenvolvido como parte do desafio 2 "Otimizando o Sistema Bancário com Funções Python" do bootcamp Potência Tech powered by iFood | Ciências de Dados com Python, da Digital Innovation One.
+Este é um projeto simples de um sistema bancário em Python, desenvolvido como parte do desafio "Criando um Sistema Bancário com Python" do bootcamp Potência Tech powered by iFood | Ciências de Dados com Python, da Digital Innovation One.
 
 ## Funcionalidades
 
-A optimização agregou as seguintes funcionalidades:
-- Novo Usuário: cria um novo usuário.
-- Nova Conta Corrente: cria uma conta corrente vinculada a um usuário
-- Listar Contas: lista todas as contas registradas
+O sistema bancário oferece as seguintes funcionalidades para um único usuário (e por isso não é necessário número de conta ou agencia):
+- Saque: Permite ao usuário realizar um saque da sua conta bancária.
+- Depósito: Permite ao usuário realizar um depósito na sua conta bancária.
+- Extrato: Exibe o extrato da conta bancária, mostrando o histórico de transações.
 
 ## Requisitos
 
-- Modular código em funções
-- Inserir opções / funções de criar um usuário, criar uma conta corrente e listar contas.
-- As contas devem estar vinculadas a um usuário.
-- A função de saque deve receber argumentos apenas por chave / nome.
-- A função de depósito deve receber argumentos apenas por posição.
-- A função de extrato deve receber metade dos argumentos por nome e metade por posição.
+O sistema atende aos seguintes requisitos definidos pelo cliente:
+
+- Operação de depósito: É possível depositar valores positivos na conta bancária. Todos os depósitos são armazenados em uma variável e exibidos no extrato.
+
+- Operação de saque: O sistema permite realizar até 3 saques diários, com um limite máximo de R$ 500,00 por saque. Caso o saldo seja insuficiente, uma mensagem é exibida informando a falta de saldo. Todos os saques são armazenados em uma variável e exibidos no extrato.
+
+- Operação de extrato: Exibe todos os depósitos e saques realizados na conta. No final do extrato, é exibido o saldo atual da conta. Se não houver movimentações, é exibida a mensagem "Não foram realizadas movimentações". Os valores são exibidos no formato R$ xxx.xx.
 
 ## Pré-requisitos
 
@@ -26,7 +27,7 @@ A optimização agregou as seguintes funcionalidades:
 
 1. Clone este repositório para o seu computador.
 2. Navegue até o diretório do projeto.
-3. Execute o arquivo `desafio-2.py` usando o Python: python desafio.py
+3. Execute o arquivo `banco_desafio.py` usando o Python: python banco_desafio.py
 
 Siga as instruções exibidas no terminal para realizar operações bancárias.
 
@@ -37,3 +38,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 ---
 
 **Desafio DIO: Criando um Sistema Bancário com Python do bootcamp Potência Tech powered by iFood | Ciências de Dados com Python.**
+
